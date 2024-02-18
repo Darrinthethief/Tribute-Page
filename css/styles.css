@@ -1,78 +1,123 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+    margin: 0; 
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     background-color: #000;
-    color: #fff;
-    font-family: Poppins, Arial, sans-serif;
-    padding: 40px;
+    color: #FFF;
 }
 
-.header {
-    max-width: 100%;
+header {
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 5.5em;
 }
 
 #title {
-    font-family: Poppins, Arial, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 45px;
-    padding-bottom: 35px;
-    letter-spacing: 4px;
+    padding-top: 1em;
+    padding-bottom: 1.65em;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    font-size: 2.4rem;
+    color: #FF1144;
+    text-shadow: 5px 5px 5px#FFF;
 }
 
 #sub-title {
-    font-family: Poppins, Arial, sans-serif;
-    font-size: 24px;
-    text-align: center;
-    padding: 20px 0 35px 0;
-    letter-spacing: 8px;
-    word-spacing: 3px;
+    font-family: Pacifico, Arial, Helvetica, sans-serif;
+    letter-spacing: 1.75rem;
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px #FF1144;   
 }
 
+/* Image section */
+
 #img-div {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
-    text-align: center;
     display: block;
+    height: auto;
+    width: 40em;
+    text-shadow: 10px 10px 10px #FF1144;
+}
+  
+#image {
+    max-width: 100%;
+    text-align: center;
 }
 
-#image {
-    max-height: 100%;
-    max-width: 100%;
-    height: auto;
+#img-caption {
+    margin-right: 21em;
+    position: static;
+    padding-right: 2rem;
+    margin-left: 23rem;
+}
+
+/* Image caption section */
+#season {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2.4rem;
+    font-size: 2.3rem;
+    letter-spacing: 1.2rem;
+    font-weight: 300;
+    text-shadow: 3px 5px 10px #FF1144;
 }
 
 #episode-title {
-    font-size: 24px;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    letter-spacing: 10px;
-    font-weight: 600;
-    text-shadow: 10px 10px 10px #E00;
+    padding-bottom: 3.5rem;
+    letter-spacing: 1.5rem;
+    padding-top: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 450;
+    text-shadow: 5px 5px 5px #FF1144;
+    color: #500;
 }
 
-#fullmetal-episode {
-    font-size: 18px;
-    font-weight: 900;
-    padding-top: 25px;
-    padding-bottom: 30px;
-    text-shadow: 2px 2px 2px #5FF;
-    background-color: #0F0F0F;
-    padding-left: 15px;
-}
-
-#fullmetal-episode .episode {
+#fullmetal-episode li {
     list-style: none;
-    padding-top: 15px;
-    color: #E00;
-    letter-spacing: 3px;
+    padding-bottom: 1.4rem;
+    letter-spacing: .4rem;
+    font-size: 1.4rem;
+    text-shadow: 5px 5px 5px #FF1144;
+}
+
+/* Blockquote section */
+
+#link-section {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#quote, #author {
+    padding-bottom: 3.5rem;
+    padding-top: 2.5rem;
+    letter-spacing: .5rem;
+    text-shadow: 2px 2px 4px #FF5599;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#link-section > a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 7px 5px 10px #FF5599;
+    font-size: 1.75rem;
+    letter-spacing: .25rem;
+}
+
+#link-section > a:hover {
+    color: #FF5599;
+    text-shadow: 3px 3px 10px #FFFFEE;
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
 }
