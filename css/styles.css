@@ -1,0 +1,169 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color: #FFF;
+}
+
+/* Header Section Styling */
+
+header {
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 5.5em;
+}
+
+#title {
+    padding-top: 1em;
+    padding-bottom: 1.65em;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    font-size: 2.4rem;
+    color: #FF1144;
+    text-shadow: 5px 5px 5px#FFF;
+}
+
+#sub-title {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    letter-spacing: 1.75rem;
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px #FF1144; 
+}
+
+/* Main Section Styling */
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    height: 50em;
+    width: 40em;
+}
+
+.episode-image {
+    height: 12rem;
+    width: 18rem;
+}
+
+.episode {
+    padding-left: 2rem;
+}
+
+.episode-list {
+    display: flex;
+    padding-bottom: 2rem;
+}
+  
+#image {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#img-caption {
+    margin-right: 21em;
+    position: static;
+    padding-right: 2rem;
+    margin-left: 23rem;
+}
+
+/* Image Caption Section */
+#season {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2.4rem;
+    font-size: 2.3rem;
+    letter-spacing: 1.2rem;
+    font-weight: 300;
+    text-shadow: 3px 5px 10px #FF1144;
+}
+
+#episode-title {
+    padding-bottom: 4.5rem;
+    letter-spacing: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 450;
+}
+
+#fullmetal-episode  {
+    list-style: none;
+    padding-bottom: 1.4rem;
+    letter-spacing: .4rem;
+    font-size: 1.4rem;
+}
+
+.titles {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 1.2rem;
+}
+
+.details {
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    width: auto;
+    line-height: 2.2rem;
+    font-weight: 450;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Blockquote section */
+
+#link-section {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#quote, #author {
+    padding-bottom: 3.5rem;
+    padding-top: 2.5rem;
+    letter-spacing: .5rem;
+    text-shadow: 2px 2px 4px #FF5599;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#link-section > a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 7px 5px 10px #FF5599;
+    font-size: 1.75rem;
+    letter-spacing: .25rem;
+}
+
+#link-section > a:hover {
+    color: #FF5599;
+    text-shadow: 3px 3px 10px #FFFFEE;
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .episode-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+        justify-content: center;
+    }
+
+    .episode {
+        padding-top: 2rem;
+        padding-top: 2rem;
+        text-align: center;
+    }
+}
